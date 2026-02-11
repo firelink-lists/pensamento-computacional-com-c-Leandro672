@@ -17,8 +17,16 @@ int main() {
     int impares = 0;
     
     // TODO: Percorra números de 1 a 50
+    for (int i = 1; i <= 50; i++) {
+        // TODO: Conte pares e ímpares 
+        if (i % 2 == 0) {
+            pares++;
+        } else {
+            impares++;
+        }
+    }
     
-    // TODO: Conte pares e ímpares
+
     
     // TODO: Exiba os resultados
     cout << "Pares: " << pares << endl;
